@@ -1,0 +1,19 @@
+.one{
+    border: 20px;
+    padding: 20px;
+    display:inline-block;
+    border-style: double;
+    background-color: rgb(252, 230, 57);
+    
+}
+.two{
+    font-size:x-large;
+    font-style: oblique;
+    
+}
+#one{
+    padding: 50px;
+}
+.h1{
+    background-color: beige;
+}

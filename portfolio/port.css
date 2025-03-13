@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: #111;
+    text-align: center;
+    background-image: url(p2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #f5c518;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+
+.hero {
+    height: 100vh;
+    background: url('background.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-content span {
+    color: #ff9800;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff9800;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #e68900;
+    color:#000;
+}
+
+
+.section {
+    padding: 80px 20px;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    color: #ff9800;
+    margin-bottom: 20px;
+}
+
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project {
+    background: #222;
+    padding: 40px;
+    border-radius: 10px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.project:hover {
+    background: #ff9800;
+    transform: translateY(-5px);
+}
+.social-links a {
+    color: #e3fa12;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background: #000;
+    padding: 20px;
+    margin-top: 50px;
+}
